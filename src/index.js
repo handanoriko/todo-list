@@ -41,7 +41,6 @@ const createImcompleteList = (text) => {
 
     addTarget.appendChild(p);
     addTarget.appendChild(backButton);
-    console.log(addTarget);
 
     document.getElementById("complete-list").appendChild(addTarget);
   });
